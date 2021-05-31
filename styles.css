@@ -1,0 +1,104 @@
+h1{
+	font-family: monospace; 
+	padding-right: 12em;
+	top: 180px;
+	color: black;
+}
+h2{
+	font-family: monospace;
+	position: relative;
+	z-index: 1;
+	top: 180px;
+
+}
+h3{
+	font-family: monospace;
+	position: relative;
+	z-index: 1;
+	top: 500px;
+}
+h4{
+	font-family: monospace;
+
+	top: 500px;
+
+}
+p{
+	
+	font-size: small;
+}
+
+body{
+	background: rgba(0,0,0,0);
+}
+
+a:visited {
+  color: blue;
+}
+
+
+.animal{
+
+	border-color: #99ffcc;	
+	height: 40%;
+	margin-left: 8em;
+	padding-left: 13em;
+	padding-right: 12em;
+	position: relative;
+	float: left;
+	border-radius: 3px;
+	border-left: 5px solid;
+	font-family: monospace;
+
+}
+.animal2{
+	background: #99ffcc;
+	border-color: #99ffcc;	
+	height: 40%;
+	margin-left: 12em;
+	padding-left: 12em;
+	padding-right: 12em;
+	/*position: relative;*/
+	border-radius: 3px;
+	border-left: 5px solid;
+	float: left;
+
+}
+.animal3{
+	background: #ff6600;
+	border-color: #99ffcc;	
+	height: 40%;
+	margin-left: 10em;
+	padding-left: 12em;
+	padding-right: 12em;
+	/*position: relative;*/
+	border-radius: 5px;
+	border-left: 5px solid;
+	float: left;
+
+}
+.human{
+	background: #666666;
+	border-color: #99ffcc;	
+	height: 40%;
+	margin-left: 10em;
+	padding-left: 12em;
+	padding-right: 12em;
+	/*position: relative;*/
+	border-radius: 5px;
+	border-left: 5px solid;
+	float: left;
+
+}
+}
+
+img{
+  border-radius: 50%;
+  vertical-align: center;
+}
+
+
+
+
+
+
