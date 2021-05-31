@@ -49,11 +49,11 @@ void exitGame() {
   if (press == false) {
     if (abs(mouseX - pmouseX) > 5  || abs(mouseY - pmouseY) > 5) {
       if (circleOver) {
-        link("http://www.processing.org");
+        link("https://laurastuttergarcia.com/animals/cat.html");
       }else if(circleNear){
-        link("http://www.google.com");
+        link("https://laurastuttergarcia.com/animals/human.html");
       }else{
-        link("http://www.facebook.com");
+        link("https://laurastuttergarcia.com/animals/dog.html");
       }
       exit();
     }
@@ -88,6 +88,19 @@ void update() {
     circleOver =  false;
     circleNear = false;
   }
+}
+
+boolean overCircle(float x, float y, float diameter) {
+  float disX = x - mouseX;
+  float disY = y - mouseY;
+  if (sqrt(sq(disX) + sq(disY)) < diameter ) {
+    return true;
+  } else {
+    return false;
+  }
+}
+void mousePressed() {
+  press =! press;
 }
 
 boolean overCircle(float x, float y, float diameter) {
