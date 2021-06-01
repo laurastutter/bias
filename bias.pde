@@ -102,16 +102,3 @@ boolean overCircle(float x, float y, float diameter) {
 void mousePressed() {
   press =! press;
 }
-
-boolean overCircle(float x, float y, float diameter) {
-  float disX = x - mouseX;
-  float disY = y - mouseY;
-  if (sqrt(sq(disX) + sq(disY)) < diameter ) {
-    return true;
-  } else {
-    return false;
-  }
-}
-void mousePressed() {
-  press =! press;
-}
